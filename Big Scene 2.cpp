@@ -34,10 +34,11 @@ int game() {
             cout << "ehhh u got it wrong" << endl;
             contgame = false;
         }
-        cout << "Your end score is " << score << endl; 
-        cout << "Thanks for joining!" << endl;
         
     }
+    cout << "Your end score is " << score << endl; 
+    cout << "Thanks for joining!" << endl;
+        
     return score;
     
 }
